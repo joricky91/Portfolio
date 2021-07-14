@@ -1,0 +1,8 @@
+python,5,2
+c++,9,-2
+matdis,5,0
+alin,5,0
+pdm,5,2
+alpro,7,0
+english,3,0
+pancasila,2,0

@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel = "stylesheet" href = "style.css" type = "text/css">
+</head>
+
+<body>
+<div id = "wrapper">
+	<div id = "container">
+		<header>DirectNews.com</header>			<!--HTML5-->
+		<nav> <!-- HTML 5 -->
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Artikel</a>
+			<ul class="submenu">
+			<li><a href="#">Sains</a></li>
+			<li><a href="#">Bola</a></li>
+			</ul>
+			</li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="kontak.html">Kontak</a></li>
+			<li><a href="#">Sitemap</a></li>
+			<li><a href="#">JQuery</a>
+			<ul class = "submenu">
+			<li><a href = "postest.html">Post Test</a></li>
+			</ul>
+			<li><a href = "#">HTML 5-Form</a>
+			<ul class = "submenu">
+			<li><a href = "form1.html">Form1</a></li>
+			<li><a href = "form2.html">Form2</a></li>
+			<li><a href = "form3.html">Form3</a></li>
+			<li><a href = "form4.html">Form4</a></li>
+			</ul>
+			<li><a href = "#">HTML 5-Canvas</a>
+			<ul class = "submenu">
+			<li><a href = "canvas1.html">Canvas1</a></li>
+			<li><a href = "canvas2.html">Canvas2</a></li>
+			<li><a href = "canvas3.html">Canvas3</a></li>
+			<li><a href = "canvas4.html">Canvas4</a></li>
+			<li><a href = "canvas5.html">Canvas5</a></li>
+			<li><a href = "canvas6.html">Canvas6</a></li>
+			<li><a href = "canvas7.html">Canvas7</a></li>
+			<li><a href = "canvas8.html">Canvas8</a></li>
+			</ul>
+			</ul>
+		</nav>					<!--HTML5-->
+		<div id="content">
+			<div id="single" style="width:580px;">
+				<!DOCTYPE html>
+				<html>
+				<head>
+					<title>Create Account</title>
+					<link rel = "stylesheet" type = "text/css" href = "style1.css">
+					<script src = "jquery-3.5.1.js"></script>
+					<script>
+						$(document).ready(function(){
+							$("#button").click(function(){
+								var nama1 = $("#namaawal").val();
+								var nama2 = $("#namaakhir").val();
+								var email1 = $("#emailuser").val();
+								var pass = $("#password").val();
+								var hari = $("#Day").val();
+								var bulan = $("#Month").val();
+								var tahun = $("#Year").val();
+								alert ("First name :" + nama1 + " " + nama2 + "\n" +
+								"Email :" + email1 + "\n" + "Password :" + pass + "\n" +
+								"Birthday :" + hari + bulan + tahun);
+							})
+						});
+					</script>
+				</head>
+				<body>
+					<div id = "grad">
+					<h1>Create an Account</h1>
+					<h4>It's free and always will be</h4>
+					<table>
+						<tr>
+							<td><input type = "text" id = "namaawal" name = "first name" placeholder = "First Name" size = "22"></td>
+							<td><input type = "text" id = "namaakhir" name = "last name" placeholder = "Last Name"size = "22"></td>
+						</tr>
+						<tr>
+							<td colspan = "2"><input type = "text" id = "emailuser" name = "email" placeholder = "Your email address" size = "50"></td>
+						</tr>
+						<tr>
+							<td colspan = "2"><input type = "text" name = "re-enter email" placeholder = "Re-enter email address" size = "50"></td>
+						</tr>
+						<tr>
+							<td colspan = "2"><input type = "password" id = "password" name = "password" placeholder = "New Password" size = "50"></td>
+						</tr>
+					</table>
+					<td>Birthday</td><br>
+						
+						<select id = "Day" name = "Day">
+							<option value = "1">Day</option>
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
+							<option value = "6">6</option>
+							<option value = "7">7</option>
+							<option value = "8">8</option>
+							<option value = "9">9</option>
+							<option value = "10">10</option>
+						</select>
+							
+						<select id = "Month" name = "Month">
+							<option value = "1">Month</option>
+							<option value = "1">January</option>
+							<option value = "2">February</option>
+							<option value = "3">March</option>
+							<option value = "4">April</option>
+							<option value = "5">May</option>
+							<option value = "6">June</option>
+							<option value = "7">July</option>
+							<option value = "8">August</option>
+							<option value = "9">September</option>
+							<option value = "10">October</option>
+							<option value = "11">November</option>
+							<option value = "12">December</option>
+						</select>
+						
+						<select id = "Year" name = "Year">
+							<option value = "1">Year</option>
+							<option value = "1">2020</option>
+							<option value = "2">2019</option>
+							<option value = "3">2018</option>
+							<option value = "4">2017</option>
+							<option value = "5">2016</option>
+							<option value = "6">2015</option>
+							<option value = "7">2014</option>
+							<option value = "8">2013</option>
+							<option value = "9">2012</option>
+							<option value = "10">2011</option>
+						</select>
+							
+							<div id = "ukuran2">
+								Why do I need to provide my <br> date of birth?
+							</div>
+							
+						<td>
+					</tr>
+					<tr>
+						<td>
+							<label><input type = "radio" name = "rad1">Female</label>
+						</td>
+						<td>
+							<label><input type = "radio" name = "rad1">Male</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan = "7">
+							<div id = "ukuran1">
+								By clicking Create an Account, you agree to our <font id = "blue">Terms</font> and that <br>
+								you have read our <font id = "blue">Data Use Policy</font> including our <font id = "blue">Cookie Use</font>.
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan = "2">
+							<div>
+								<button id = "button"> Create an account </button>
+							</div>	
+						</td>
+					</tr>
+					</div>
+				</body>
+				</html>
+			</div>
+		</div>
+		<div id = "sidebar">
+			<li class="widget">
+			<h2>Popular Post</h2>
+			<ul>
+			<li><a href="https://sains.kompas.com/read/2011/12/02/10510232/Prasasti.Maya.Bukan.Petunjuk.Kiamat">Prasasti Maya Bukan Petunjuk Kiamat</a></li>
+			<li><a href="https://internasional.kompas.com/read/2011/12/05/17464790/asteroid.vesta.dalam.video.3d">Asteroid Vesta dalam Video 3D</a></li>
+			<li><a href="https://sains.kompas.com/read/2011/12/05/18515156/Seperlima.Gletser.Himalaya.Mencair">Seperlima Gletser Himalaya Mencair</a></li>
+			</ul>
+			</li>
+			<li class="widget">
+			<h2>Commented Post</h2>
+			<ul>
+			<li><a href="https://sains.kompas.com/read/2011/12/02/10510232/Prasasti.Maya.Bukan.Petunjuk.Kiamat">Prasasti Maya Bukan Petunjuk Kiamat</a></li>
+			<li><a href="https://internasional.kompas.com/read/2011/12/05/17464790/asteroid.vesta.dalam.video.3d">Asteroid Vesta dalam Video 3D</a></li>
+			<li><a href="https://sains.kompas.com/read/2011/12/05/18515156/Seperlima.Gletser.Himalaya.Mencair">Seperlima Gletser Himalaya Mencair</a></li>
+			</ul>
+			</li>
+			<li class="widget">
+			<h2>Audio Streaming</h2>
+			<audio id="audio" src="sound.mp3" controls></audio>
+			</li>
+		</div>
+		<footer>					<!--HTML5-->
+			<div id="column">
+				<h2>Dapatkan Bantuan dan Dukungan</h2>
+				Untuk mendapatkan petunjuk atau dukungan dari kami, kunjungi situs <a
+				href="http://support.directnews.com">support.directnews.com</a> dan submit form
+				anda.
+			</div>
+			<div id="column">
+				<h2>Hubungi Kami</h2>
+				Jl. Parikesit 75<br>
+				Surabaya 66666 Jawa Timur<br>
+				(+6231) 5556667
+			</div>
+			<div id="column">
+				<h2>Temukan Kami di ...</h2>
+				<a href="http://facebook.com/directnewsaccess">Facebook</a><br>
+				<a href="http://twitter.com/directnewsaccess">Twitter</a>
+			</div>
+		</footer>
+	</div>
+</div>
+</body>
+</html>

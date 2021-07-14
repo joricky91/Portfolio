@@ -1,0 +1,18 @@
+Login : Input salah - ulang input
+
+1. Pinjam buku : 1. Normal
+		2. Buku yang dipinjam habis #user tidak mungkin pinjam buku yang tidak ada di perpus
+		3. Orang tsb sudah pinjam dan belum kembaliin
+
+2. Kembali : 	1. Normal
+		2. Udah dikembaliin
+		3. Data salah
+
+3. Cek Denda :	1. Normal
+		2. Ada denda
+		3. Data salah
+
+4. Tambah Buku : 	1. Sudah ada buku
+			2. Buku belum ada
+
+Searching balik ke menu kalo langsung

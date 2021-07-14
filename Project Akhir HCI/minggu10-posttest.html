@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<link rel = "stylesheet" type = "text/css" href = "style1.css">
+	<script src = "jquery-3.5.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#button").click(function(){
+				var nama1 = $("#namaawal").val();
+				var nama2 = $("#namaakhir").val();
+				var email1 = $("#emailuser").val();
+				var pass = $("#password").val();
+				var hari = $("#Day").val();
+				var bulan = $("#Month").val();
+				var tahun = $("#Year").val();
+				alert ("First name :" + nama1 + " " + nama2 + "\n" +
+				"Email :" + email1 + "\n" + "Password :" + pass + "\n" +
+				"Birthday :" + hari + bulan + tahun);
+			})
+		});
+	</script>
+</head>
+<body>
+	<div id = "grad">
+	<h1>Create an Account</h1>
+	<h4>It's free and always will be</h4>
+	<table>
+		<tr>
+			<td><input type = "text" id = "namaawal" name = "first name" placeholder = "First Name" size = "22"></td>
+			<td><input type = "text" id = "namaakhir" name = "last name" placeholder = "Last Name"size = "22"></td>
+		</tr>
+		<tr>
+			<td colspan = "2"><input type = "text" id = "emailuser" name = "email" placeholder = "Your email address" size = "50"></td>
+		</tr>
+		<tr>
+			<td colspan = "2"><input type = "text" name = "re-enter email" placeholder = "Re-enter email address" size = "50"></td>
+		</tr>
+		<tr>
+			<td colspan = "2"><input type = "password" id = "password" name = "password" placeholder = "New Password" size = "50"></td>
+		</tr>
+	</table>
+	<td>Birthday</td><br>
+		
+		<select id = "Day" name = "Day">
+			<option value = "1">Day</option>
+			<option value = "1">1</option>
+			<option value = "2">2</option>
+			<option value = "3">3</option>
+			<option value = "4">4</option>
+			<option value = "5">5</option>
+			<option value = "6">6</option>
+			<option value = "7">7</option>
+			<option value = "8">8</option>
+			<option value = "9">9</option>
+			<option value = "10">10</option>
+		</select>
+			
+		<select id = "Month" name = "Month">
+			<option value = "1">Month</option>
+			<option value = "1">January</option>
+			<option value = "2">February</option>
+			<option value = "3">March</option>
+			<option value = "4">April</option>
+			<option value = "5">May</option>
+			<option value = "6">June</option>
+			<option value = "7">July</option>
+			<option value = "8">August</option>
+			<option value = "9">September</option>
+			<option value = "10">October</option>
+			<option value = "11">November</option>
+			<option value = "12">December</option>
+		</select>
+		
+		<select id = "Year" name = "Year">
+			<option value = "1">Year</option>
+			<option value = "1">2020</option>
+			<option value = "2">2019</option>
+			<option value = "3">2018</option>
+			<option value = "4">2017</option>
+			<option value = "5">2016</option>
+			<option value = "6">2015</option>
+			<option value = "7">2014</option>
+			<option value = "8">2013</option>
+			<option value = "9">2012</option>
+			<option value = "10">2011</option>
+		</select>
+			
+			<div id = "ukuran2">
+				Why do I need to provide my <br> date of birth?
+			</div>
+			
+		<td>
+	</tr>
+	<tr>
+		<td>
+			<label><input type = "radio" name = "rad1">Female</label>
+		</td>
+		<td>
+			<label><input type = "radio" name = "rad1">Male</label>
+		</td>
+	</tr>
+	<tr>
+		<td colspan = "7">
+			<div id = "ukuran1">
+				By clicking Create an Account, you agree to our <font id = "blue">Terms</font> and that <br>
+				you have read our <font id = "blue">Data Use Policy</font> including our <font id = "blue">Cookie Use</font>.
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan = "2">
+			<div>
+				<button id = "button"> Create an account </button>
+			</div>	
+		</td>
+	</tr>
+	</div>
+</body>
+</html>
+			

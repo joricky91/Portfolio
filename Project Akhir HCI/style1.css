@@ -1,0 +1,25 @@
+#grad{
+	background-image : linear-gradient(to bottom, white, gray);
+}
+
+#ukuran1{
+	font-size : 12px;
+}
+
+#ukuran2{
+	font-size : 12px;
+	color : blue;
+}
+
+#blue{
+	color : blue;
+}
+
+#button {
+    background-color : green;
+    color : white;
+	width : 250px;
+	height : 40px;
+	font-size : 20px;
+}
+

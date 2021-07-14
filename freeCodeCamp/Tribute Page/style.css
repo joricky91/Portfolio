@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Century Gothic;
+  margin: 0;
+  padding: 5px;
+  background-color: #eee;
+}
+
+#main {
+  text-align: center;
+  min-width: 400px;
+}
+#img-div {
+  background-color: white;
+  padding: 15px;
+}
+#image {
+  max-width: 100%;
+  display: block;
+}
+#img-caption {
+  margin-top: 10px;
+}
+ul{
+  line-height: 1.6;
+}
